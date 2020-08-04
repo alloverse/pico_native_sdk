@@ -1,0 +1,571 @@
+{
+  "annotation-0": "json格式校验:www.bejson.com",
+  "annotation-1": "此文件需以utf-8编码",
+  "annotation-2": "语言代码标准ISO-639,ISO-3166",
+  "annotation-3": "文件位置:/sdcard/psmart/phoenix/res.json",
+  "version": "1.01",
+  "default_lang": {
+    "lg_toast": "需要在手机上通过\n权限才能正常使用U+VR.",
+    "dialog1_title": "您已离开安全边界",
+    "dialog1_content": "方法一：您可以原路走回安全边界内；\n方法二：或按头戴确认键进入安全边界设置，重新创建新的安全边界。",
+    "dialog1_confirm": "原地使用安全边界",
+    "dialog1_cancel": "自定义安全边界",
+    "dialog3_title": "无法追踪您的位置",
+    "dialog3_content":"请勿遮挡前方摄像头，且保证室内光线充足。\n按头戴确认键重新创建新的安全边界，如一直无法正常使用请重启设备。",
+    "safeToast0": "To reset safe zone，please insure there have no obstacles in the radius of ",
+    "safeToast1": " meters，then point the controller forward，long press on the 【home button】",
+    "safeToast2": "To reset safe zone，please insure there have no obstacles in the radius of ",
+    "safeToast3": " meters，then long press on the 【home button】 on headset",
+    "resetPanel0": "Please take off the headset，insure there have no obstacles in the radius of ",
+    "resetPanel1": " meters，then press on 【confirm button】 again",
+    "safePanel0": "Safe zone has reset successfully, please insure there have no obstacles in the radius of ",
+    "safePanel1": " meters，then press on 【confirm button】",
+    "msgtoast0": "Receive a message",
+    "msgtoast1": "To check MMS，please take off HMD and plug out HMD from smart phone",
+    "calltoast0": "Incoming Call",
+    "calltoast1": "To check phone call or MMS，please take off HMD and plug out HMD from smart phone",
+    "lowhmdBatterytoast": "VR device low battery，5% remaining，please charge",
+    "lowphoneBatterytoast": "Smart phone low battery，5% remaining，please charge",
+    "LowPhoneHealthtoast": "Heat warning，please take off HMD and plug out HMD from smart phone",
+    "LowcontrollerBatterytoast": "Low battery of controller",
+    "apptip": "Back",
+    "touchtip": "Confirm",
+    "hometip": "Home",
+    "voluptip": "Volume+",
+    "voldowntip": "Volume-",
+    "triggertip": "Trigger",
+    "griptip": "Grip",
+    "lg_permission_text": "请先在手机上通过权限，再继续使用",
+    "servicetip0": "No handle service found, please turnon the handle service first",
+    "servicetip1": "No handle service found, please use PicoVR to download and install",
+    "servicetip2": "Can not find any handle, please turn on bluetooth and press handle home key",
+    "servicetip3": "Find more than one handle, turn off the unused handle",
+    "servicetip4": "The handle service starts abnormally. Please check the background permissions and security settings"
+  },
+  "zh": {
+    "lg_toast": "需要在手机上通过\n权限才能正常使用U+VR.",
+    "safeToast0": "若需重置位置，请确保周围半径",
+    "safeToast1": "米范围内没有障碍物，将手柄指向前方，长按【Home键】",
+    "safeToast2": "若需重置位置，请确保周围半径",
+    "safeToast3": "米范围内没有障碍物，长按头戴【Home键】",
+    "resetPanel0": "请摘下头盔，确保周围半径",
+    "resetPanel1": "米范围内没有障碍物，再次点击【确认键】重置位置",
+    "safePanel0": "安全区域已重置，请摘下头盔，确保周围半径",
+    "safePanel1": "米内没有障碍物，并点击【确认键】",
+    "msgtoast0": "收到短信",
+    "msgtoast1": "如需确认,请摘下VR设备并断开连接",
+    "calltoast0": "收到来电",
+    "calltoast1": "如接听来电,请摘下VR设备并断开连接",
+    "lowhmdBatterytoast": "VR设备电量低于5%",
+    "lowphoneBatterytoast": "手机电量低于5%",
+    "LowPhoneHealthtoast": "手机过热，请摘下头戴并拔掉USB线，暂停使用该设备",
+    "LowcontrollerBatterytoast": "手柄电量不足",
+    "apptip": "返回键",
+    "touchtip": "确认键",
+    "hometip": "Home键",
+    "voluptip": "音量+",
+    "voldowntip": "音量-",
+    "triggertip": "扳机键",
+    "griptip": "侧按键",
+    "lg_permission_text": "请先在手机上通过权限，再继续使用",
+    "servicetip0": "手柄服务未启动，请先启动手柄服务",
+    "servicetip1": "未发现手柄服务，请使用PicoVR下载并安装",
+    "servicetip2": "没有扫描到手柄，请确保手机蓝牙开启，并短按手柄Home键",
+    "servicetip3": "扫描到多个手柄，请保持周围只有一个开启状态的手柄",
+    "servicetip4": "手柄服务启动异常，请检查后台权限及安全设置",
+    "dialog1_title": "您已离开安全边界",
+    "dialog1_content":"方法一：您可以原路走回安全边界内；\n方法二：或按头戴确认键进入安全边界设置，重新创建新的安全边界。",
+    "dialog1_confirm":"原地使用安全边界",
+    "dialog1_cancel":"自定义安全边界",
+    "dialog3_title": "无法追踪您的位置",
+    "dialog3_content":"请勿遮挡前方摄像头，且保证室内光线充足。\n按头戴确认键重新创建新的安全边界，如一直无法正常使用请重启设备。"
+  },
+  "en": {
+    "lg_toast": "U+VR can be used normally only\n through permissions on the smartphone",
+    "lg_toast_textsize": 12,
+    "tx_space": 3,
+    "safeToast0": "To reset safe zone，please insure there have no obstacles in the radius of ",
+    "safeToast1": " meters，then point the controller forward，long press on the 【home button】",
+    "safeToast2": "To reset safe zone，please insure there have no obstacles in the radius of ",
+    "safeToast3": " meters，then long press on the 【home button】 on headset",
+    "resetPanel0": "Please take off the headset，insure there have no obstacles in the radius of ",
+    "resetPanel1": " meters，then press on 【confirm button】 again",
+    "safePanel0": "Safe zone has reset successfully, please insure there have no obstacles in the radius of ",
+    "safePanel1": " meters，then press on 【confirm button】",
+    "msgtoast0": "Receive a message",
+    "msgtoast1": "To check MMS，please take off HMD and plug out HMD from smart phone",
+    "calltoast0": "Incoming Call",
+    "calltoast1": "To check phone call or MMS，please take off HMD and plug out HMD from smart phone",
+    "lowhmdBatterytoast": "VR device low battery，5% remaining，please charge",
+    "lowphoneBatterytoast": "Smart phone low battery，5% remaining，please charge",
+    "LowPhoneHealthtoast": "Heat warning，please take off HMD and plug out HMD from smart phone",
+    "LowcontrollerBatterytoast": "Low battery of controller",
+    "apptip": "Back",
+    "touchtip": "Confirm",
+    "hometip": "Home",
+    "voluptip": "Volume+",
+    "voldowntip": "Volume-",
+    "triggertip": "Trigger",
+    "griptip": "Grip",
+    "servicetip0": "No handle service found, please turnon the handle service first",
+    "servicetip1": "No handle service found, please use PicoVR to download and install",
+    "servicetip2": "Can not find any handle, please turn on bluetooth and press handle home key",
+    "servicetip3": "Find more than one handle, turn off the unused handle",
+    "servicetip4": "The handle service starts abnormally. Please check the background permissions and security settings",
+    "dialog1_title": "You've Left Your Play Boundary",
+    "dialog1_content":"To continue, please return to your play boundary.\nOr, press the Confirm (button) to create a new boundary.",
+    "dialog1_confirm":"Stationary Boundary",
+    "dialog1_cancel":"Roomscale Boundary",
+    "dialog3_title": "Movement Tracking Lost",
+    "dialog3_content":"Ensure the headset cameras are not obstructed, and your room is well-lit.\nPress headset confirm button to create a new boundary. If the problem persists, reboot the headset."
+  },
+  "ko": {
+    "lg_toast": "휴대폰에서 접근 권한을 허용해야\n U+VR을 정상적으로 이용할 수 있습니다.",
+    "tx_sapce": 1,
+    "dialog1_title": "플레이 가능 영역 밖입니다",
+    "dialog1_content":"계속하시려면 플레이 가능 영역으로 돌아가 주세요.\n또는, 헤드셋 확인 (버튼)을 눌러서 새 영역을 생성하세요.",
+    "dialog1_confirm":"고정 영역",
+    "dialog1_cancel":"실내 영역",
+    "dialog3_title": "이동 트래킹 없음",
+    "dialog3_content":"헤드셋 카메라가 차단되지 않았는지, 그리고 실내 조명 상태가 좋은지 확인해 주세요.\n헤드셋 확인 버튼을 눌러서 새 영역을 생성하세요. 문제가 지속되면, 헤드셋을 리셋하세요.",
+	"safeToast0": "위치를 리셋해야 할 경우, 주변 반경 ",
+    "safeToast1": " 범위 내에 장애물이 없도록 확보해 주시고 컨트롤러를 앞쪽으로 가리키며 【Home 키】를 길게 눌러 주십시오",
+    "safeToast2": "위치를 리셋해야 할 경우, 주변 반경 ",
+    "safeToast3": "미터를 누른 다음 헤드셋의 【Home 키】을 길게 누릅니다.",
+    "resetPanel0": "헤드셋을 벗고 주변 반경 ",
+    "resetPanel1": " 범위 내에 장애물이 없도록 확보해 주신 후 다시 【확인 키】를 눌러 위치를 리셋해 주십시오",
+    "safePanel0": "안전 구역이 리셋되었으니 헤드셋을 벗고 주변 반경 ",
+    "safePanel1": " 범위 내에 장애물이 없도록 확보해 주신 후 【확인 키】를 눌러 주십시오.",
+    "msgtoast0": "Receive a message",
+    "msgtoast1": "To check MMS，please take off HMD and plug out HMD from smart phone",
+    "calltoast0": "Incoming Call",
+    "calltoast1": "To check phone call or MMS，please take off HMD and plug out HMD from smart phone",
+    "lowhmdBatterytoast": "VR device low battery，5% remaining，please charge",
+    "lowphoneBatterytoast": "Smart phone low battery，5% remaining，please charge",
+    "LowPhoneHealthtoast": "Heat warning，please take off HMD and plug out HMD from smart phone",
+    "LowcontrollerBatterytoast": "Low battery of controller",
+    "apptip": "리턴 키",
+    "touchtip": "확인 키",
+    "hometip": "Home 키",
+    "voluptip": "볼륨+",
+    "voldowntip": "볼륨-",
+    "triggertip": "트리거 키",
+    "griptip": "Grip",
+    "servicetip0": "컨트롤러 서비스가 작동되지 않았습니다. 먼저 컨트롤러 서비스를 작동해 주십시오",
+    "servicetip1": "컨트롤러 서비스가 발견되지 않았습니다. PicoVR을 사용하여 다운로드 및 설치해 주십시오",
+    "servicetip2": "컨트롤러 서비스가 작동되지 않았습니다. 먼저 컨트롤러 서비스를 작동해 주십시오",
+    "servicetip3": "컨트롤러 서비스가 작동되지 않았습니다. 먼저 컨트롤러 서비스를 작동해 주십시오",
+    "servicetip4": "컨트롤러 서비스가 작동되지 않았습니다. 먼저 컨트롤러 서비스를 작동해 주십시오"
+  },
+  "ja": {
+    "lg_toast": "スマートホンで権限許可\nしてから、U+VRをご使用ください",
+    "tx_sapce": 4,
+	"safeToast0": "安全域をリセットしたい時は、半径",
+    "safeToast1": "メルトに障害物がないように確認して、Homeボタンを長押ししてください",
+    "safeToast2": "安全域をリセットしたい時は、半径",
+    "safeToast3": "メーター範囲内に障害物はありません。[ホームボタン]を長押しします",
+    "resetPanel0": "ヘッドセットを取り外して、半径 ",
+    "resetPanel1": " メルトに障害物がないように確認して、また確認ボタンを押してください",
+    "safePanel0": "安全域がリエットしました、ヘッドセットを取り外して、半径",
+    "safePanel1": "メルトに障害物がないように確認して、確認ボタンを押してください",
+    "msgtoast0": "新着メッセージがあります",
+    "msgtoast1": "メッセージを見るには、ヘッドセットを取り外して、スマートホンからヘッドセットを外しでください",
+    "calltoast0": "お電話です",
+    "calltoast1": "応答するには、ヘッドセットを取り外して、スマートホンからヘッドセットを外しでください",
+    "lowhmdBatterytoast": "ヘッドセットのバッテリー残量が5％になっています",
+    "lowphoneBatterytoast": "スマートホンのバッテリー残量が5％になっています",
+    "LowPhoneHealthtoast": "スマートホンが過熱になっています、今すぐにヘッドセットを取り外して、スマートホンからヘッドセットを外しでください",
+    "LowcontrollerBatterytoast": "コントローラーのバッテリー残量が低いです",
+    "apptip": "バック",
+    "touchtip": "確認",
+    "hometip": "Home",
+    "voluptip": "Volume+",
+    "voldowntip": "Volume-",
+    "triggertip": "Trigger",
+    "griptip": "Grip",
+    "servicetip0": "コントローラーサービスは起動していません、先ずコントローラーサービスを起動してください",
+    "servicetip1": "コントローラーサービスが見つかりませんでした、PicoVRでダウンロードしてください",
+    "servicetip2": "コントローラーサービスは起動していません、先ずコントローラーサービスを起動してください",
+    "servicetip3": "コントローラーサービスは起動していません、先ずコントローラーサービスを起動してください",
+    "servicetip4": "コントローラーサービスは起動していません、先ずコントローラーサービスを起動してください"
+  },
+  "zh_TW": {
+    "lg_toast": "========================"
+  },
+  "config": {
+    "text_size": {
+      "lg_toast_textsize": 13,
+      "lg_main_screen_textsize": 15
+    },
+    "char_space": {
+      "tx_space": 2,
+      "bo_space": 3
+    },
+    "boundary_dialog": {
+      "dialog0": {
+        "enable": 1,
+        "width": 210,
+        "height":0,
+        "depthNDC":600,
+        "widthNDC":360,
+        "logo": {
+          "enable": 0,
+          "top": -19,
+          "left": 85,
+          "width": 36,
+          "height": 31,
+          "path": "dialog1_logo"
+        },
+        "body": {
+          "top": 0,
+          "left": 0,
+          "width": 210,
+          "height":0,
+          "marginBottom":10,
+          "background_color": "bg_color_body",
+          "title": {
+            "text": "dialog1_title",
+            "top": 15,
+            "left":13,
+            "width": 154,
+            "height": 13,
+            "text_size": 9,
+            "text_color": "txt_color_title"
+          },
+          "content": {
+            "text": "dialog1_content",
+            "top": 35,
+            "left":13,
+            "width": 185,
+            "height": 30,
+            "text_color": "txt_color_content",
+            "text_size": 7
+          },
+          "button0": {
+            "enable": 0,
+            "top": 73,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt0",
+            "background_color": "bg_color_bt0"
+          },
+          "button1": {
+            "enable": 0,
+            "top": 105,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt1",
+            "background_color": "bg_color_bt1"
+          },
+          "button2": {
+            "enable": 0,
+            "top": 137,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt2",
+            "background_color": "bg_color_bt2"
+          }
+        }
+      },
+      "dialog1": {
+        "enable": 1,
+        "width": 210,
+        "height":0,
+        "depthNDC":600,
+        "widthNDC":360,
+        "logo": {
+          "enable": 0,
+          "top": -19,
+          "left": 85,
+          "width": 36,
+          "height": 31,
+          "path": "dialog1_logo"
+        },
+        "body": {
+          "top": 0,
+          "left": 0,
+          "width": 210,
+          "height":0,
+          "marginBottom":10,
+          "background_color": "bg_color_body",
+          "title": {
+            "text": "dialog1_title",
+            "top": 15,
+            "left":13,
+            "width": 154,
+            "height": 13,
+            "text_size": 9,
+            "text_color": "txt_color_title"
+          },
+          "content": {
+            "text": "dialog1_content",
+            "top": 35,
+            "left":13,
+            "width": 185,
+            "height": 30,
+            "text_color": "txt_color_content",
+            "text_size": 7
+          },
+          "button0": {
+            "enable": 0,
+            "top": 73,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt0",
+            "background_color": "bg_color_bt0"
+          },
+          "button1": {
+            "enable": 0,
+            "top": 105,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt1",
+            "background_color": "bg_color_bt1"
+          },
+          "button2": {
+            "enable": 0,
+            "top": 137,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt2",
+            "background_color": "bg_color_bt2"
+          }
+        }
+      },
+      "dialog2": {
+        "enable": 1,
+        "width": 210,
+        "height":0,
+        "depthNDC":600,
+        "widthNDC":360,
+        "logo": {
+          "enable": 0,
+          "top": -19,
+          "left": 85,
+          "width": 36,
+          "height": 31,
+          "path": "dialog1_logo"
+        },
+        "body": {
+          "top": 0,
+          "left": 0,
+          "width": 210,
+          "height":0,
+          "marginBottom":10,
+          "background_color": "bg_color_body",
+          "title": {
+            "text": "dialog1_title",
+            "top": 15,
+            "left":13,
+            "width": 154,
+            "height": 13,
+            "text_size": 9,
+            "text_color": "txt_color_title"
+          },
+          "content": {
+            "text": "dialog1_content",
+            "top": 35,
+            "left":13,
+            "width": 185,
+            "height": 30,
+            "text_color": "txt_color_content",
+            "text_size": 7
+          },
+          "button0": {
+            "enable": 0,
+            "top": 73,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt0",
+            "background_color": "bg_color_bt0"
+          },
+          "button1": {
+            "enable": 0,
+            "top": 105,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt1",
+            "background_color": "bg_color_bt1"
+          },
+          "button2": {
+            "enable": 0,
+            "top": 137,
+            "left": 13,
+            "width": 186,
+            "height": 25,
+            "text_size": 8,
+            "text": "dialog1_confirm",
+            "text_color": "txt_color_bt2",
+            "background_color": "bg_color_bt2"
+          }
+        }
+      }
+    },
+    "controller": [
+      {
+        "model_name": "Goblin",
+        "base_path": "/system/media/PvrRes/controller/Goblin/",
+        "material_type": 0,
+        "tex_format": "png",
+        "drawable": "lg_up_screen",
+        "control_num": 1,
+        "tips_x": 0.9,
+        "tips_y": 0.8,
+        "tips_z": 0.7,
+        "tex_width": 1024,
+        "tex_height": 1024,
+        "keys0": [
+          {
+            "name": "",
+            "tips_x": 0,
+            "tips_y": 0,
+            "tips_z": 0
+          },
+          {}
+        ],
+        "keys1": [
+        ]
+      },
+      {
+        "model_name": "Neo",
+        "base_path": "/system/media/PvrRes/controller/Neo/",
+        "material_type": 0,
+        "tex_format": "png",
+        "drawable": "lg_up_screen",
+        "control_num": 2,
+        "tips_x": 0.9,
+        "tips_y": 0.8,
+        "tips_z": 0.7,
+        "tex_width": 1024,
+        "tex_height": 1024,
+        "keys0": [
+          {
+            "name": "",
+            "tips_x": 0,
+            "tips_y": 0,
+            "tips_z": 0
+          },
+          {}
+        ],
+        "keys1": [
+        ]
+      },
+      {
+        "model_name": "G2",
+        "base_path": "/system/media/PvrRes/controller/G2/",
+        "material_type": 0,
+        "tex_format": "png",
+        "drawable": "lg_up_screen",
+        "control_num": 1,
+        "tips_x": 0.9,
+        "tips_y": 0.8,
+        "tips_z": 0.7,
+        "tex_width": 256,
+        "tex_height": 256,
+        "keys0": [
+          {
+            "name": "",
+            "tips_x": 0,
+            "tips_y": 0,
+            "tips_z": 0
+          },
+          {}
+        ],
+        "keys1": [
+        ]
+      },
+      {
+        "model_name": "Neo2",
+        "base_path": "/system/media/PvrRes/controller/Neo2/",
+        "material_type": 1,
+        "tex_format": "jpg",
+        "drawable": "lg_up_screen",
+        "control_num": 2,
+        "tips_x": 0.9,
+        "tips_y": 0.8,
+        "tips_z": 0.7,
+        "tex_width": 512,
+        "tex_height": 512,
+        "keys0": [
+          {
+            "name": "",
+            "tips_x": 0,
+            "tips_y": 0,
+            "tips_z": 0
+          },
+          {}
+        ],
+        "keys1": [
+        ]
+      }
+    ],
+    "lg_phone_main_screen": {
+      "type": 1,
+      "text": {
+        "text": "lg_toast",
+        "width": -1,
+        "height": 700,
+        "text_size": "lg_main_screen_textsize",
+        "text_color": "lg_toast_textcolor",
+        "background_color": "lg_toast_backgroundcolor"
+      },
+      "image": {
+        "drawable": "lg_main_screen"
+      }
+    },
+    "lg_hmd_permission_toast": {
+      "enable": 1,
+      "text": "lg_permission_text",
+      "text_size": "lg_toast_textsize",
+      "text_color": "lg_toast_textcolor",
+      "background_color": "lg_toast_backgroundcolor"
+    },
+    "controller_connected_toast": "lg_toast",
+    "controller_disconnected_toast": "lg_toast"
+  },
+  "font": {
+    "font_s": "sss"
+  },
+  "color": {
+    "lg_toast_textcolor": "ffffff",
+    "lg_toast_backgroundcolor": "111111",
+    "bg_color_body": "FF29292D",
+    "txt_color_title":"FFEEEEEE",
+    "txt_color_content":"FFA6A6A6",
+    "txt_color_bt0": "FF29292D",
+    "bg_color_bt0": "FF6656BE",
+    "txt_color_bt1": "FF29292D",
+    "bg_color_bt1": "FF6656BE",
+    "txt_color_bt2": "FF29292D",
+    "bg_color_bt2": "FF6656BE"
+  },
+  "drawable": {
+    "lg_up_screen": "/product/etc/screensaverhint.png",
+    "lg_main_screen": "/sdcard/psmart/phoenix/screensaverhint.png",
+    "dialog1_logo": "/sdcard/logo.png"
+  }
+}

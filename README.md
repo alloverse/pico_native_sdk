@@ -7,6 +7,14 @@ You must still agree to Pico's licensing terms to use it.
 
 ## Version history
 
+### v1.3.3 (2020-07-23)
+
+- Added support for safety border recognition and seethrough.
+- Added interfaces to get Neo2 controller velocity, angular velocity, acceleration.
+- Added interfaces for Neo2 controller vibration.
+- Added interfaces to get & set eye buffer size.
+- Added Native SDK demo and provided sample
+
 ### v1.3.2 (2019-09-19)
 
 1. Provided VR SDK fundamental functionalities.
